@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Courgette|Indie+Flower|&display=swap');
+
+/* 
+Titles/Headings
+font-family: 'Courgette', cursive;
+
+Main Copy
+font-family: 'Indie Flower', cursive;
+
+"Other" Copy
+font-family: 'Black Ops One', cursive;
+*/
+
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+.four {
+  font-family: 'Courgette', cursive;
+}
+.one {
+  font-family: 'Indie Flower', cursive;
+}
+
+.two {
+  font-family: 'Black Ops One', cursive;
+}
