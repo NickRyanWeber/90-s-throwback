@@ -107,6 +107,8 @@ nav li a:hover {
   color: brown;
 }
 
+/* Footer */
+
 footer {
   position: fixed;
   left: 0;
@@ -120,4 +122,38 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+/* Home */
+
+.featured-items {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.featured-item {
+  margin: 1rem;
+  border: 3px solid black;
+  padding: 1em;
+  background-color: cyan;
+}
+
+.featured-item:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  border-radius: 2em;
+}
+
+.featured-item h3 {
+  text-align: center;
+}
+
+.home-intro {
+  /* max-width: 900px; */
+  /* this reduces the size of the body. I think I need something that FORCES the body to a certain size */
+  margin: 3em 5em;
+  text-align: center;
 }
