@@ -43,8 +43,15 @@ img {
 }
 
 .hero-img-sizer {
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+.hero-img-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 3em;
 }
 
 /* Header */
@@ -156,4 +163,12 @@ footer p {
   /* this reduces the size of the body. I think I need something that FORCES the body to a certain size */
   margin: 3em 5em;
   text-align: center;
+}
+
+/* Ipsum Pages */
+
+.learn-ipsum-header,
+.ipsum-example {
+  text-align: center;
+  padding: 0.5em 2em;
 }
